@@ -54,7 +54,7 @@ noisefilteringGUI.py에서는 p4에서 만든 각각의 pcd에서 z축을 제거
 noisefilteringGUI.py 를 실행할 때는 반드시 noisefilteringGUI.py 코드가 있는 터미널 창에서 실행해줘야 한다. 아니면 이런 오류가 발생한다.</br>
 
 ```jsx
-python: can't open file '[conv.py](http://conv.py/)': [Errno 2] No such file or directory
+python: can't open file '[coordinateConversion.py](http://conv.py/)': [Errno 2] No such file or directory
 ```
 
 ---

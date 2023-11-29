@@ -3,6 +3,7 @@
 
 LeGO-LOAM 패키지는 3D 맵을 생성하는 코드이다. </br>
 
+
 mapmakingGUI.py는 GUI를 이용해 rosbag 파일을 선택하고 LeGO-LOAM을 실행한다. </br>
 
 Select rosbag을 버튼을 클릭하여 3D 맵을 생성하기 위한 rosbag 파일을 선택한 후, make a map 버튼을 클릭하여 LeGO-LOAM을 실행하여 3D 맵을 생성한다. </br>

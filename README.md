@@ -24,7 +24,7 @@ Unable to register with master node [http://172.16.235.182:11311]: master may no
 이를 해결하기 위하여 새로운 터미널 창을 열어서 `roscore` 명령어를 입력한다. </br>
 
 ```jsx
-roscore\
+roscore
 ```
 </br>
 

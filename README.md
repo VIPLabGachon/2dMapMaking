@@ -1,5 +1,5 @@
 # 2dMapMaking </br>
-![image](https://github.com/VIPLabGachon/2dMapMaking/assets/130475746/78b5dcdd-fd84-4ccc-83a2-09a5c3a033ae)
+![Screenshot from 2023-11-29 20-22-22](https://github.com/kim-hyunse/LeGO-LOAM/assets/130475746/431c009f-fa28-49a7-b1a4-6e081e626542)
 
 LeGO-LOAM 패키지는 3D 맵을 생성하는 코드이다. </br>
 
@@ -72,5 +72,4 @@ python: can't open file '[coordinateConversion.py](http://conv.py/)': [Errno 2] 
 
 토픽이름 자동화</br>
 
-![Screenshot from 2023-11-29 20-22-22](https://github.com/kim-hyunse/LeGO-LOAM/assets/130475746/431c009f-fa28-49a7-b1a4-6e081e626542)
 

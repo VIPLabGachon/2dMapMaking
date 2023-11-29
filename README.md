@@ -71,3 +71,6 @@ python: can't open file '[coordinateConversion.py](http://conv.py/)': [Errno 2] 
 레고로암 종료 코드 만들기</br>
 
 토픽이름 자동화</br>
+
+![Screenshot from 2023-11-29 20-22-22](https://github.com/kim-hyunse/LeGO-LOAM/assets/130475746/431c009f-fa28-49a7-b1a4-6e081e626542)
+

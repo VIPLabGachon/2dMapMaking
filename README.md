@@ -40,10 +40,13 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
 
 위의 문자열을 입력하여 환경변수를 수정한다.</br>
 
-실행 전 자신이 사용할 rosbag 파일에 sensor_msgs/PointCloud2 포맷의 topic 명을mapmakingGUI.py 내에rosbag_play_cmd에 입력해야 한다. 기본 값은 `/ouster/points` 로 설정되어 있다.</br>
+실행 전 자신이 사용할 rosbag 파일에 sensor_msgs/PointCloud2 포맷의 topic 명을mapmakingGUI.py 내에rosbag_play_cmd에 입력해야 한다. </br>기본 값은 `/ouster/points` 로 설정되어 있다.</br>
 
-conv.py 코드는 LeGO-LOAM이 zxy축으로 틀어져있는 좌표값을 xyz로 변경해주는 코드이다. </br>
-추가적으로, 필요없는 intensity 값을 제거해서 코드를 가져다 쓰기 더 쉽게 만들어준다.</br>
+---
+
+LeGO-LOAM의 결과로 생성되는 3D point cloud는 일반적으로 사용하는 xyz가 아닌 zxy의 좌표계를 사용한다. 3D 맵의 불필요 계측 데이터 제거 기법을 적용하기 위하여 좌표계를 xyz로 변환해야한다.
+
+coordinateConversion.py 코드는 LeGO-LOAM이 zxy축으로 설정되어 있는 좌표계 xyz로 변환한다.
 
 ---
 

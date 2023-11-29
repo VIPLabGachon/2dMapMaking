@@ -68,6 +68,6 @@ python: can't open file '[coordinateConversion.py](http://conv.py/)': [Errno 2] 
 
 투두리스트</br>
 
-레고로암 죽이기 만들기</br>
+레고로암 종료 코드 만들기</br>
 
 토픽이름 자동화</br>

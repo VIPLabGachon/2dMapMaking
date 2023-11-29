@@ -42,13 +42,15 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
 
 실행 전 자신이 사용할 rosbag 파일에 sensor_msgs/PointCloud2 포맷의 topic 명을mapmakingGUI.py 내에rosbag_play_cmd에 입력해야 한다. 기본 값은 `/ouster/points` 로 설정되어 있다.</br>
 
-conv.py 코드는 LeGO-LOAM이 zxy축으로 틀어져있는 좌표값을 xyz로 변경해주는 코드이다. 추가적으로, 필요없는 intensity 값을 제거해서 코드를 가져다 쓰기 더 쉽게 만들어준다.</br>
+conv.py 코드는 LeGO-LOAM이 zxy축으로 틀어져있는 좌표값을 xyz로 변경해주는 코드이다. </br>
+추가적으로, 필요없는 intensity 값을 제거해서 코드를 가져다 쓰기 더 쉽게 만들어준다.</br>
 
 ---
 
 pointcloudFiltering.py 코드는 noise를 제거하는 코드이다. hdbscan(converted_hdb.pcd), voxel filtering(converted_height.pcd), sor(converted_sor_final.pcd)을 누적해서 진행하고, 각 단계별 pcd를 저장한다. </br>
 
-noisefilteringGUI.py에서는 p4에서 만든 각각의 pcd에서 z축을 제거해 2d 이미지로 projection하고 보여준다. 그 이미지 중 사용자가 원하는 이미지를 선택해서 저장할 수 있다.</br>
+noisefilteringGUI.py에서는 p4에서 만든 각각의 pcd에서 z축을 제거해 2d 이미지로 projection하고 보여준다. </br>
+그 이미지 중 사용자가 원하는 이미지를 선택해서 저장할 수 있다.</br>
 
 발생할 수 있는 오류</br>
 

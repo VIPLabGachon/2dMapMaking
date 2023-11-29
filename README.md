@@ -1,5 +1,7 @@
 # 2dMapMaking </br>
 
+
+
 LeGO-LOAM 패키지는 3D 맵을 생성하는 코드이다. </br>
 
 mapmakingGUI.py는 GUI를 이용해 rosbag 파일을 선택하고 LeGO-LOAM을 실행한다. </br>
@@ -45,7 +47,7 @@ conv.py 코드는 LeGO-LOAM이 zxy축으로 틀어져있는 좌표값을 xyz로 
 
 ---
 
-p4.py 코드는 noise를 제거하는 코드이다. hdbscan, voxel filtering, sor을 누적해서 진행하고, 각 단계별 pcd를 저장한다. </br>
+pointcloudFiltering.py 코드는 noise를 제거하는 코드이다. hdbscan, voxel filtering, sor을 누적해서 진행하고, 각 단계별 pcd를 저장한다. </br>
 
 noisefilteringGUI.py에서는 p4에서 만든 각각의 pcd에서 z축을 제거해 2d 이미지로 projection하고 보여준다. 그 이미지 중 사용자가 원하는 이미지를 선택해서 저장할 수 있다.</br>
 
